@@ -76,9 +76,9 @@ class Api {
    *   has_dip: Boolean 是否沾过
    * }
    */
-  dipLucky(lottery_history_id) {
-    return this.http.post('/growth_api/v1/lottery_lucky/dip_lucky', { lottery_history_id })
-  }
+  // dipLucky(lottery_history_id) {
+  //   return this.http.post('/growth_api/v1/lottery_lucky/dip_lucky', { lottery_history_id })
+  // }
 
   /**
    * @desc 免费抽奖次数
